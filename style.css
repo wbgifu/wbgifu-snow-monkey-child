@@ -1,4 +1,132 @@
+@charset "UTF-8";
 /**
  * Template: snow-monkey
- * Theme Name: Snow Monkey Child
+ * Theme Name: WordBench岐阜
  */
+@media (max-width: 1023px) {
+  .tablepress {
+    width: 100%;
+  }
+  .table-scroll {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .table-scroll::-webkit-scrollbar {
+    height: 5px;
+  }
+  .table-scroll::-webkit-scrollbar-track, .table-scroll::-webkit-scrollbar-thumb {
+    background: #ccc;
+  }
+}
+
+.mw_wp_form dl {
+  border-bottom: #ddd solid 1px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.mw_wp_form dl dt, .mw_wp_form dl dd {
+  margin: 0;
+  padding: 20px 0 15px;
+}
+
+.mw_wp_form dl dt {
+  float: left;
+  font-weight: bold;
+  padding-right: 20px;
+  width: 25%;
+  position: relative;
+}
+
+.mw_wp_form dl dt .mwform-require {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.mw_wp_form dl dd {
+  overflow: hidden;
+  zoom: 1;
+}
+
+.mw_wp_form dl dd input, .mw_wp_form dl dd textarea {
+  border: #ccc solid 1px;
+  border-radius: 3px;
+  margin: 0;
+  max-width: 88%;
+  padding: 9px 12px;
+  vertical-align: middle;
+}
+
+.mw_wp_form dl dd textarea {
+  width: 90%;
+}
+
+.mw_wp_form p.mwform-btn {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.mw_wp_form p.mwform-btn input {
+  background-color: #f5f5f5;
+  border: #ddd solid 1px;
+  border-radius: 3px;
+  color: #000;
+  cursor: pointer;
+  font-weight: normal;
+  padding: 10px 20px;
+}
+
+.mw_wp_form p.mwform-btn input:active, .mw_wp_form p.mwform-btn input:hover {
+  background-color: #eee;
+}
+
+.mw_wp_form .mwform-errors {
+  margin: 5px 0 0;
+  overflow: hidden;
+  zoom: 1;
+  /**
+     * ã‚¨ãƒ©ãƒ¼ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸
+     */
+}
+
+.mw_wp_form .mwform-errors .mwform-error {
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.mw_wp_form .mwform-errors .mwform-error span {
+  background-color: #F7CCE6;
+  border: #EE4D89 solid 1px;
+  border-radius: 3px;
+  color: #EE4D89;
+  display: inline-block;
+  font-size: 85%;
+  padding: 3px 6px 2px;
+}
+
+.mw_wp_form .mwform-require {
+  color: #EE4D89;
+  font-size: 85%;
+}
+
+.mw_wp_form .mwform-field {
+  margin: 0 0 5px;
+}
+
+.mw_wp_form .mwform-note {
+  font-size: 85%;
+}
+
+@media screen and (max-width: 480px) {
+  .mw_wp_form dl dt {
+    float: none;
+    width: auto;
+    padding-bottom: 10px;
+  }
+  .mw_wp_form dl dd {
+    padding-top: 0;
+  }
+}
